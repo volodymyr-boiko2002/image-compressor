@@ -1,5 +1,38 @@
 # Next.js Image Compressor 🖼️ 🔄
 
+## Table of Contents
+- [Project Overview](#project-overview-)
+- [Technology Stack](#technology-stack-)
+  - [Core Technologies](#core-technologies-)
+  - [Image Processing Technologies](#image-processing-technologies-)
+  - [Compression Libraries](#compression-libraries-)
+  - [UI Components](#ui-components-)
+- [Project Architecture](#project-architecture-)
+  - [Architectural Layers](#architectural-layers-)
+  - [Data Flow](#data-flow-)
+- [Project Structure](#project-structure-)
+- [Component Descriptions](#component-descriptions-)
+  - [Main Components](#main-components-)
+  - [Compression Implementation](#compression-implementation-)
+- [Technical Implementation Details](#technical-implementation-details-)
+  - [Compression Algorithms](#compression-algorithms-)
+  - [Web Worker Implementation](#web-worker-implementation-)
+  - [Memory Management](#memory-management-)
+- [Features](#features-)
+  - [Core Features](#core-features-)
+  - [Advanced Features](#advanced-features-)
+  - [User Experience Features](#user-experience-features-)
+- [Compression Techniques](#compression-techniques-)
+  - [Image Analysis and Classification](#image-analysis-and-classification-)
+  - [Adaptive Compression](#adaptive-compression-)
+  - [Tiled Processing for Large Images](#tiled-processing-for-large-images-)
+- [Usage Guide](#usage-guide-)
+  - [Basic Usage](#basic-usage-)
+  - [Advanced Usage Tips](#advanced-usage-tips-)
+- [Performance Considerations](#performance-considerations-)
+  - [Browser Resources](#browser-resources-)
+  - [Optimization Strategies](#optimization-strategies-)
+
 ## Project Overview 📋
 
 The Next.js Image Compressor is a sophisticated client-side image compression application designed to optimize JPEG and PNG images while maintaining visual quality. This application leverages modern web technologies to perform complex image processing operations entirely within the browser, ensuring user privacy and eliminating the need for server-side processing.
