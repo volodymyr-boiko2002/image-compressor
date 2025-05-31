@@ -7,7 +7,7 @@ import { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Free Online Image Compressor powered by Valdesio",
   description: "Compress your images instantly with intelligent size reduction. Valdesio Image Compression is a fast, free, and privacy-focused online tool to reduce file sizes and optimize web performance.",
-  keywords: "online image compressor, fast image compression tool, free image optimizer, compress JPG and PNG online, reduce image file size, lossless image compression, image compression for web, privacy-first image compression, compress images without quality loss, Valdesio image tools, optimize images for faster loading, best online image compressor, drag and drop image compressor, secure photo compression, web-friendly image formats, responsive image optimization, browser-based image compression, Valdesio image utility, lightweight image compressor, compress images instantly, image compression with preview, smart image optimizer",
+  keywords: "valdesio, online image compressor, fast image compression tool, free image optimizer, compress JPG and PNG online, reduce image file size, lossless image compression, image compression for web, privacy-first image compression, compress images without quality loss, Valdesio image tools, optimize images for faster loading, best online image compressor, drag and drop image compressor, secure photo compression, web-friendly image formats, responsive image optimization, browser-based image compression, Valdesio image utility, lightweight image compressor, compress images instantly, image compression with preview, smart image optimizer",
   robots: "index, follow",
   openGraph: {
     title: "Free Online Image Compressor powered by Valdesio",
@@ -19,6 +19,12 @@ export const metadata: Metadata = {
     card: "summary",
     title: "Free Online Image Compressor powered by Valdesio",
     description: "Compress your images instantly with intelligent size reduction. Valdesio Image Compression is a fast, free, and privacy-focused online tool to reduce file sizes and optimize web performance.",
+  },
+  verification: {
+    google: "g3Bv6_c1t0nGBPWn5wi7JUIEMcGQWBcqe7C3JPd7B10",
+  },
+  alternates: {
+    canonical: "https://valdesiocompressor.pages.dev/",
   },
 };
 
