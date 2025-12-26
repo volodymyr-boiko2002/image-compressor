@@ -36,7 +36,7 @@ export default function PrivacyPolicyPage() {
 
         <div className="text-center mb-12">
           <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl mb-2" id="page-title">
-            <span className="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
+            <span className="text-blue-600">
               Privacy Policy
             </span>
           </h1>
@@ -45,10 +45,10 @@ export default function PrivacyPolicyPage() {
 
         <div className="bg-white rounded-lg shadow-sm p-6 mb-8" role="region" aria-labelledby="commitment-heading">
           <div className="flex items-center gap-3 mb-4">
-            <Shield className="h-6 w-6 text-purple-600" aria-hidden="true" />
+            <Shield className="h-6 w-6 text-blue-600" aria-hidden="true" />
             <h2
               id="commitment-heading"
-              className="text-xl font-semibold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent"
+              className="text-xl font-semibold text-blue-600"
             >
               Our Commitment to Privacy
             </h2>
@@ -57,8 +57,8 @@ export default function PrivacyPolicyPage() {
             At Image Compressor, we are committed to protecting your privacy. This Privacy Policy explains how our
             application handles (or rather, doesn't handle) your data when you use our service.
           </p>
-          <div className="bg-purple-50 border-l-4 border-purple-500 p-4 mb-6">
-            <p className="text-purple-800 font-medium">
+          <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6">
+            <p className="text-blue-800 font-medium">
               The Image Compressor operates entirely within your browser. We do not collect, store, or process any of
               your data on our servers.
             </p>
@@ -75,7 +75,7 @@ export default function PrivacyPolicyPage() {
               <Lock className="h-6 w-6 text-blue-600" aria-hidden="true" />
               <h2
                 id="data-collection-heading"
-                className="text-xl font-semibold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent"
+                className="text-xl font-semibold text-blue-600"
               >
                 No Data Collection
               </h2>
@@ -98,7 +98,7 @@ export default function PrivacyPolicyPage() {
               <Eye className="h-6 w-6 text-green-600" aria-hidden="true" />
               <h2
                 id="cookies-heading"
-                className="text-xl font-semibold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent"
+                className="text-xl font-semibold text-blue-600"
               >
                 No Cookies or Tracking
               </h2>
@@ -121,7 +121,7 @@ export default function PrivacyPolicyPage() {
               <Server className="h-6 w-6 text-indigo-600" aria-hidden="true" />
               <h2
                 id="service-heading"
-                className="text-xl font-semibold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent"
+                className="text-xl font-semibold text-blue-600"
               >
                 How Our Service Works
               </h2>
@@ -153,7 +153,7 @@ export default function PrivacyPolicyPage() {
               <Globe className="h-6 w-6 text-amber-600" aria-hidden="true" />
               <h2
                 id="third-party-heading"
-                className="text-xl font-semibold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent"
+                className="text-xl font-semibold text-blue-600"
               >
                 Third-Party Services
               </h2>
@@ -177,7 +177,7 @@ export default function PrivacyPolicyPage() {
           <section className="bg-white rounded-lg shadow-sm p-6" role="region" aria-labelledby="changes-heading">
             <h2
               id="changes-heading"
-              className="text-xl font-semibold mb-4 bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent"
+              className="text-xl font-semibold mb-4 text-blue-600"
             >
               Changes to This Privacy Policy
             </h2>
@@ -195,7 +195,7 @@ export default function PrivacyPolicyPage() {
         <div className="mt-12 text-center">
           <Link href="/">
             <Button
-              className="bg-gradient-to-r from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600"
+              className="bg-blue-600 hover:bg-blue-700"
               aria-label="Return to image compressor"
             >
               Return to Image Compressor

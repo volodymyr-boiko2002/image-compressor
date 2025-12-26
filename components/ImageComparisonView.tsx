@@ -159,7 +159,7 @@ export default function ImageComparisonView({
     <div className="space-y-6">
       <div className="flex justify-between items-center">
         <h2 className="text-xl font-semibold">
-          <span className="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
+          <span className="text-blue-600">
             Image Compression
           </span>
         </h2>

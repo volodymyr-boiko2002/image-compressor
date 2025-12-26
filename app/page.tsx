@@ -445,14 +445,14 @@ export default function Home() {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-10">
           <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl">
-            <span className="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
+            <span className="text-blue-600">
               Image Compressor
             </span>{" "}
             powered by{" "}
             <a
               href="https://valdesio.pages.dev"
               target="_blank"
-              className="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent transition-transform duration-200 hover:scale-105 inline-block"
+              className="text-blue-600 transition-transform duration-200 hover:scale-105 inline-block"
             >
               Valdesio
             </a>

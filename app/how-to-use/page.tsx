@@ -59,7 +59,7 @@ export default function HowToUsePage() {
 
         <div className="text-center mb-12">
           <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl mb-2" id="page-title">
-            <span className="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
+            <span className="text-blue-600">
               How to Use the Image Compressor
             </span>
           </h1>
@@ -69,10 +69,10 @@ export default function HowToUsePage() {
         {/* Getting Started Section */}
         <section className="mb-12" aria-labelledby="getting-started-heading">
           <div className="flex items-center gap-2 mb-6">
-            <Zap className="h-6 w-6 text-purple-600" aria-hidden="true" />
+            <Zap className="h-6 w-6 text-blue-600" aria-hidden="true" />
             <h2
               id="getting-started-heading"
-              className="text-2xl font-semibold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent"
+              className="text-2xl font-semibold text-blue-600"
             >
               Getting Started
             </h2>
@@ -82,8 +82,8 @@ export default function HowToUsePage() {
             <Card>
               <CardContent className="pt-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="bg-purple-100 p-2 rounded-full">
-                    <Upload className="h-5 w-5 text-purple-600" />
+                  <div className="bg-blue-100 p-2 rounded-full">
+                    <Upload className="h-5 w-5 text-blue-600" />
                   </div>
                   <h3 className="font-medium text-lg">Step 1: Upload Your Image</h3>
                 </div>
@@ -163,10 +163,10 @@ export default function HowToUsePage() {
         {/* Features Section */}
         <section className="mb-12" aria-labelledby="features-heading">
           <div className="flex items-center gap-2 mb-6">
-            <ImageIcon className="h-6 w-6 text-purple-600" aria-hidden="true" />
+            <ImageIcon className="h-6 w-6 text-blue-600" aria-hidden="true" />
             <h2
               id="features-heading"
-              className="text-2xl font-semibold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent"
+              className="text-2xl font-semibold text-blue-600"
             >
               Key Features
             </h2>
@@ -175,8 +175,8 @@ export default function HowToUsePage() {
           <Card className="mb-6">
             <CardContent className="pt-6">
               <div className="flex items-start gap-4">
-                <div className="bg-purple-100 p-2 rounded-full shrink-0 mt-1">
-                  <Maximize2 className="h-5 w-5 text-purple-600" />
+                <div className="bg-blue-100 p-2 rounded-full shrink-0 mt-1">
+                  <Maximize2 className="h-5 w-5 text-blue-600" />
                 </div>
                 <div>
                   <h3 className="font-medium text-lg mb-2">Before/After Comparison</h3>
@@ -249,10 +249,10 @@ export default function HowToUsePage() {
         {/* Tips and Best Practices */}
         <section className="mb-12" aria-labelledby="tips-heading">
           <div className="flex items-center gap-2 mb-6">
-            <Lightbulb className="h-6 w-6 text-purple-600" aria-hidden="true" />
+            <Lightbulb className="h-6 w-6 text-blue-600" aria-hidden="true" />
             <h2
               id="tips-heading"
-              className="text-2xl font-semibold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent"
+              className="text-2xl font-semibold text-blue-600"
             >
               Tips & Best Practices
             </h2>
@@ -316,10 +316,10 @@ export default function HowToUsePage() {
         {/* Common Questions */}
         <section className="mb-12" aria-labelledby="questions-heading">
           <div className="flex items-center gap-2 mb-6">
-            <HelpCircle className="h-6 w-6 text-purple-600" aria-hidden="true" />
+            <HelpCircle className="h-6 w-6 text-blue-600" aria-hidden="true" />
             <h2
               id="questions-heading"
-              className="text-2xl font-semibold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent"
+              className="text-2xl font-semibold text-blue-600"
             >
               Common Questions
             </h2>
@@ -346,8 +346,8 @@ export default function HowToUsePage() {
             <Card>
               <CardContent className="pt-6">
                 <div className="flex items-start gap-4">
-                  <div className="bg-purple-100 p-2 rounded-full shrink-0 mt-1">
-                    <FileQuestion className="h-5 w-5 text-purple-600" />
+                  <div className="bg-blue-100 p-2 rounded-full shrink-0 mt-1">
+                    <FileQuestion className="h-5 w-5 text-blue-600" />
                   </div>
                   <div>
                     <h3 className="font-medium text-lg mb-2">Why isn't my image compressing much?</h3>
@@ -403,10 +403,10 @@ export default function HowToUsePage() {
         {/* Troubleshooting */}
         <section aria-labelledby="troubleshooting-heading">
           <div className="flex items-center gap-2 mb-6">
-            <FileWarning className="h-6 w-6 text-purple-600" aria-hidden="true" />
+            <FileWarning className="h-6 w-6 text-blue-600" aria-hidden="true" />
             <h2
               id="troubleshooting-heading"
-              className="text-2xl font-semibold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent"
+              className="text-2xl font-semibold text-blue-600"
             >
               Troubleshooting
             </h2>
@@ -469,7 +469,7 @@ export default function HowToUsePage() {
         <div className="mt-16 text-center">
           <Link href="/">
             <Button
-              className="bg-gradient-to-r from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600"
+              className="bg-blue-600 hover:bg-blue-700"
               aria-label="Return to image compressor"
             >
               Return to Image Compressor

@@ -9,7 +9,7 @@ export function Header({ className }: { className?: string }) {
     <header className={cn("py-4 px-4 sm:px-6 lg:px-8", className)} role="navigation" aria-label="Main Navigation">
       <div className="container mx-auto flex flex-wrap justify-between items-center">
         <Link href="/" className="text-lg font-bold sm:text-2xl transition-transform duration-200 hover:scale-105 inline-block" aria-label="Image Compressor Home">
-          <span className="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
+          <span className="text-blue-600">
             Image Compressor
           </span>
         </Link>
@@ -18,7 +18,7 @@ export function Header({ className }: { className?: string }) {
           <Link href="/how-to-use">
             <Button
               variant="outline"
-              className="border-purple-200 hover:border-purple-300 hover:bg-purple-50"
+              className="border-blue-200 hover:border-blue-300 hover:bg-blue-50"
               aria-label="View usage instructions"
             >
               Instructions
