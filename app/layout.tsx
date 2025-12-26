@@ -33,10 +33,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  
+
   return (
     <html lang="en">
       <head>
+        {/* Preload WASM compression scripts for faster first compression */}
+        {/* <link rel="preload" href="/js/jpeg/mozjpeg-worker.js" as="script" />
+        <link rel="preload" href="/js/jpeg/mozjpeg.js" as="script" />
+        <link rel="preload" href="/js/png/oxipng-worker.js" as="script" />
+        <link rel="preload" href="/js/png/oxipng.js" as="script" /> */}
         <meta httpEquiv="Content-Security-Policy"
           content="
           default-src 'self';
